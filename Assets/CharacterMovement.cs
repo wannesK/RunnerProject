@@ -17,5 +17,4 @@ public class CharacterMovement : MonoBehaviour
         float mV = Input.GetAxis("Vertical");
         rb.velocity = new Vector3(mH * movementSpeed /2, rb.velocity.y, mV * movementSpeed);
     }
-
 }

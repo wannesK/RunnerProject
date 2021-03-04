@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpawnTrigger : MonoBehaviour
 {
@@ -14,7 +12,6 @@ public class SpawnTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             spawnManager.SpawnTriggerEntered();
-            Debug.Log("Player Hit");
         }
     }
 }
